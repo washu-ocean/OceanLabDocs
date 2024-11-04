@@ -8,7 +8,7 @@ Sylvester drive
 
 The "Sylvester drive" is the shared storage space used by the SEAL lab to conduct preprocesing of anatomical/functional MRI data and subsequent analyses. Some things to note:
 
-1. "Snapshots" of the entire drive are taken every weekday, with a maximum of 30 snapshots stored at any given time. A snapshot is essentially a copy of the entire filesystem at some point in time that can be explored; if an important file on this drive is deleted, or you'd simply like to revert a file/directory to a previous version, see :ref:`_restoring-files-using-snapshots`.
+1. "Snapshots" of the entire drive are taken every weekday, with a maximum of 30 snapshots stored at any given time. A snapshot is essentially a copy of the entire filesystem at some point in time that can be explored; if an important file on this drive is deleted, or you'd simply like to revert a file/directory to a previous version, see :ref:`restoring-files-using-snapshots`.
 2. Since snapshots are stored on the same drive and actively take up space, *it is important to not add any unnecessarily-large files to the drive*, as they will be included in subsequent snapshots. If a large file is present in some (or all) of the snapshots currently in storage, the file cannot truly be deleted until the snapshots it appears on are deleted after enough time passes.
 
 Here are some examples of things that are typically stored on the Sylvester drive:
@@ -25,7 +25,7 @@ Here are some examples of things to avoid leaving on the Sylvester drive, if pos
 - Output of exploratory analyses that aren't considered to be in a finalized state
 - Raw DICOM data after it has been converted into NIFTI format
 
-If you need to store file that fall more into this category, see :ref:`_scratch-drives`.
+If you need to store file that fall more into this category, see :ref:`scratch-drives`.
 
 Sylvester drive structure
 -------------------------
