@@ -65,5 +65,17 @@ On Windows
 4. Specify this path to the Sylvester drive: ``\\neuroimage.wustl.edu\nil``
 5. When prompted for your username, enter ``neuroimage\<your-NIL-username>``, and use your NIL password for your password.
 
+.. _configuring-bash:
+
+Configuring Bash
+----------------
+
+When using SSH, a default .bashrc file is provided at the following path: ``/data/sylvester/data1/LabOrientation/template_bashrc``. This file will configure Bash to include all the environment variables needed to use software on the system. To use this, you'll need to copy this over into your home directory (not your directory at ``/data/sylvester/data1/users``!), which can be done with this command::
+
+    cp /data/sylvester/data1/LabOrientation/template_bashrc ~/.bashrc
+
+.. hint::
+
+   The ``~`` directory is shorthand for your Unix home directory at ``/home/usr/<NIL-username/``.
 
 
