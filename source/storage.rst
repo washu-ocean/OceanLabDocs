@@ -105,6 +105,19 @@ The difference between these directories and your default home directories at ``
 Restoring files using ZFS snapshots
 -----------------------------------
 
+If you have accidentally deleted some important file(s), or want to revert a file to a version it was in days ago, you can take advantage of the ZFS snapshot system to restore the file. To do this:
+
+1. SSH into Wallace.
+2. Navigate to the snapshots with this command::
+
+    cd /data/sylvester/data1/.zfs/snapshot
+
+3. Type ``ls`` into the prompt and press <Enter> to see which snapshots are available, then use the ``cd`` command followed by the snapshot name to enter a specific snapshot.
+4. By changing into this snapshot directory, ``ls`` will show a very similar directory structure to that of ``/data/sylvester/data1/``; you are inside the snapshot! Navigate to the directory containing the file you'd like to copy back to the Sylvester drive, then run the ``cp`` command to copy it over::
+
+    cp <path/to/snapshot/file> /data/sylvester/data1/path/to/file/location
+
+
 .. _scratch-drives:
 
 Scratch drives
