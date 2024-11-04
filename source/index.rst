@@ -13,7 +13,9 @@ This manual is owned and operated by the `SEAL Lab <https://sites.wustl.edu/thes
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
+    
    How to interact with lab resources <interacting_with_resources>
+   Creating a new dataset directory <new_datasets>
+   Sylvester drive storage structure <storage>
     
 
