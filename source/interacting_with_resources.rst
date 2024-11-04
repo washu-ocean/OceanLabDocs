@@ -76,6 +76,6 @@ When using SSH, a default .bashrc file is provided at the following path: ``/dat
 
 .. hint::
 
-   The ``~`` directory is shorthand for your Unix home directory at ``/home/usr/<NIL-username/``.
+   The ``~`` directory is shorthand for your Unix home directory at ``/home/usr/<your-NIL-username>/``.
 
 

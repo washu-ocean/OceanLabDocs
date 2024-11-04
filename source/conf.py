@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Seal Lab Manual'
+project = 'OCEAN Lab Manual'
 copyright = '2024, Ramone Agard, Joey Scanga'
 author = 'Ramone Agard, Joey Scanga'
 release = '0.0.1'
@@ -26,3 +26,4 @@ exclude_patterns = []
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
+html_logo = "OCEAN_circle_colormatch.png"
