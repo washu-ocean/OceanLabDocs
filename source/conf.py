@@ -27,3 +27,10 @@ exclude_patterns = []
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = "OCEAN_circle_colormatch.png"
+html_context = {
+    "display_github": True,
+    "github_user": "washu-seal2",
+    "github_repo": "OceanLabDocs",
+    "github_version": "main",
+    "conf_py_path": "/source/"
+}
