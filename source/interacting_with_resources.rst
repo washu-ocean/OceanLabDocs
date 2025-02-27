@@ -21,7 +21,7 @@ SSH on Mac
 
 .. warning::
 
-   There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased works.
+   There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased and try typing it in again.
 
 SSH on Windows
 ^^^^^^^^^^^^^^
@@ -107,7 +107,7 @@ If you're starting a VNC server for the first time, or need to restart one (e.g.
 
 .. warning::
 
-   There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased works.
+   There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased and try typing it in again.
 
 4. If there are any other prompts you receive, simply press <Enter> or type in the default option that appears.
 
