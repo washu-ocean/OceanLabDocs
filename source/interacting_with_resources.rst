@@ -8,8 +8,8 @@ How to SSH into Wallace/Gromit
 
 The process for ssh'ing into Wallace or Gromit is very similar between Mac/Windows users.
 
-On Mac
-^^^^^^
+SSH on Mac
+^^^^^^^^^^
 
 1. Open up the Terminal application; you can find this by typing <command+space> and searching for Terminal, which should have an icon with ``>_`` in the upper-right corner.
     - Unless you're using WashU wifi (wusm-secure), you'll need to be VPN'ed into WashU's network.
@@ -23,8 +23,8 @@ On Mac
 
    There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased works.
 
-On Windows
-^^^^^^^^^^
+SSH on Windows
+^^^^^^^^^^^^^^
 
 The same instructions above, but perform them in either the Windows commmand prompt or Windows Powershell.
 
@@ -33,8 +33,8 @@ How to mount the Sylvester drive
 
 .. _mount-on-mac::
 
-On Mac
-^^^^^^
+Mount network drive on Mac
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Ensure you are on WashU wifi, or are VPN'ed into their network.
 2. Open the Finder application. At the top of your screen, click Go -> Connect To Server (near the bottom). 
@@ -57,8 +57,8 @@ On Mac
 
 6. You should now be able to access the Sylvester drive via Finder, it will appear in the sidebar under the IP address you entered earlier.
 
-On Windows
-^^^^^^^^^^
+Mount network drive on Windows
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Ensure you are on WashU wifi, or are VPN'ed into their network.
 2. Open the File Explorer.
@@ -120,8 +120,8 @@ The **X** placeholder here will be either a 1- or 2-digit number, which will be 
 
     This command can also be used to view the status of any VNC servers you have running. To list all currently-registered servers, run the command ``/opt/TurboVNC/bin/vncserver -list``. If a server is not responding or needs to be killed for whatever reason, run ``/opt/TurboVNC/bin/vncserver -kill :X``, with X being a placeholder for the 1- or 2-digit server ID number (don't forget to add the colon before this number!). 
 
-MacOS
-^^^^^
+VNC on MacOS
+^^^^^^^^^^^^
 
 MacOS has the ability to connect over VNC natively, without the need for downloading external software. 
 
@@ -130,8 +130,8 @@ MacOS has the ability to connect over VNC natively, without the need for downloa
 3. Click **Connect**. 
 4. When prompted for a password, enter in the password you created when starting a VNC server for the first time. Keep in mind that this password gets truncated to 8 characters, so only enter the first 8 of your password if it's longer than that.
 
-Windows
-^^^^^^^
+VNC on Windows
+^^^^^^^^^^^^^^
 
 (Joey) At the time of making these docs, I don't have access to a Windows computer for creating detailed steps as above in the MacOS case, but they're very similar. 
 
