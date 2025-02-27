@@ -126,7 +126,7 @@ MacOS
 MacOS has the ability to connect over VNC natively, without the need for downloading external software. 
 
 1. Open Finder -> Go -> Connect to Server (this is the same window that appears when :ref:`mounting the network drive <mount-on-mac>`)
-2. Depending on if you're connecting to Wallace or Gromit (I'll use Gromit in this example), enter ``vnc://gromit.neuroimage.wustl.edu:59XX`` into the top bar that appears. The 59 will alwasy come before the last two characters here, XX, which should be replaced with the ID number of your VNC server. If the ID number is 1 digit, make it 2 digits by prepending a 0 before (for example, if your server ID is 6, you would enter 5906 after the colon). If the ID is 2 digits, enter it as it appears (ID number 15 would be 5915 after the colon).
+2. Depending on if you're connecting to Wallace or Gromit (I'll use Gromit in this example), enter ``vnc://gromit.neuroimage.wustl.edu:59XX`` into the top bar that appears. The 59 will always come before the last two characters here, XX, which should be replaced with the ID number of your VNC server. If the ID number is 1 digit, make it 2 digits by prepending a 0 before (for example, if your server ID is 6, you would enter 5906 after the colon). If the ID is 2 digits, enter it as it appears (ID number 15 would be 5915 after the colon).
 3. Click **Connect**. 
 4. When prompted for a password, enter in the password you created when starting a VNC server for the first time. Keep in mind that this password gets truncated to 8 characters, so only enter the first 8 of your password if it's longer than that.
 
