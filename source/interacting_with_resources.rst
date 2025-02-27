@@ -3,17 +3,17 @@ How to interact with lab resources
 
 .. _using-ssh:
 
-How to SSH into Wallace
------------------------
+How to SSH into Wallace/Gromit
+------------------------------
 
-The process for ssh'ing into Wallace is very similar between Mac/Windows users.
+The process for ssh'ing into Wallace or Gromit is very similar between Mac/Windows users.
 
 On Mac
 ^^^^^^
 
 1. Open up the Terminal application; you can find this by typing <command+space> and searching for Terminal, which should have an icon with ``>_`` in the upper-right corner.
     - Unless you're using WashU wifi (wusm-secure), you'll need to be VPN'ed into WashU's network.
-2. To SSH into Wallace for the first time, enter the following command::
+2. To SSH into Wallace or Gromit (wallace is used in this example) for the first time, enter the following command::
 
     ssh <your-NIL-username>@wallace.neuroimage.wustl.edu -Y
 
