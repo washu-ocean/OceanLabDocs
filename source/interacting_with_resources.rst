@@ -103,7 +103,11 @@ If you're starting a VNC server for the first time, or need to restart one (e.g.
 
     1920x1080 refers to the pixel dimensions of the VNC window. If you have a smaller screen, adjust this option to fit the resolution of your screen.
 
-3. (FIRST-TIME USERS ONLY) The program will prompt you to create a password if this is your first time logging on, so simply type in a new password when prompted. Since this is a terminal application, keep in mind there won't be any feedback that you've typed a character in, unlike how passowrds appear when typed in on web pages (e.g. 'mypassword' looks like '***********' on a webpage). When you've typed your password, hit <Enter>. 
+3. (FIRST-TIME USERS ONLY) The program will prompt you to create a password if this is your first time logging on, so simply type in a new password when prompted, and hit Enter.
+
+.. warning::
+
+   There are no characters that will appear as you type in your password, so keep that in mind! If you think you made a typo, simply holding the <Backspace> key until you think all the characters are erased works.
 
 4. If there are any other prompts you receive, simply press <Enter> or type in the default option that appears.
 
