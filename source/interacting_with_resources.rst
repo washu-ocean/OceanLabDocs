@@ -89,7 +89,7 @@ Desktop access over VNC
 
 Both Wallace and Gromit can be accessed via the Virtual Network Computing (VNC) protocol, which allow for a user-friendly desktop experience when running programs or accessing files on the server. Below are different procedures to do this on both MacOS and Windows.
 
-Prerequisite for both MacOS and Windows
+Start/restart a VNC server using SSH
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you're starting a VNC server for the first time, or need to restart one (e.g. after a server reboot), follow these steps below:
