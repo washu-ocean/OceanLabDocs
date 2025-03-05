@@ -1,0 +1,10 @@
+# Contributing to OceanLabDocs
+
+With the documentation source text, images, etc. hosted on Github, it's easy to make contributions to the documentation site!
+
+### Contributing using Github's web editor
+
+1. Make a _fork_ of the repository, by clicking on the "Fork" button at the top-right of this repository's home page, then click "Create Fork" at the bottom of the following screen.
+2. This will drop you into a new homepage similar to the original repository, but this is _your forked version_ of the repository. Here, you can make any changes you'd like by adding/editing .rst files in the `source` directory, and clicking "Commit changes..." when done creating these additions. You can make as many commits as you'd like! Git keeps track of changes on a per-commit basis, so a common rule-of-thumb is to break larger contributions into _many small commits_ to make it easier to revert to a previous state of the fork, if needed.
+3. Once all the commits for a contribution are complete, navigate back to the fork's homepage, and click **Contribute** -> **Open Pull Request**.
+4. At the following screen, add an appropriate title/description detailing the changes made in the commits on this fork, then hit **Create Pull Request**. This will open a request for review for the owners of the repository, who will then look at the changes, ensure the documentation site will build nicely, and ultimately merge your changes into the _main_ branch of the repository.
