@@ -5,3 +5,5 @@ This repository contains everything used by [Read The Docs](https://about.readth
 ### Want to contribute?
 
 These docs are built using [Sphinx](https://www.sphinx-doc.org/en/master/), a framework that uses the ReStructured Text (RST) markup format to generate sophisticated documentation webpages automatically. Information on working with Sphinx/RST can be found [here](https://www.sphinx-doc.org/en/master/usage/index.html). 
+
+For more info, see [CONTRIBUTING.md](https://github.com/washu-ocean/OceanLabDocs/blob/main/CONTRIBUTING.md).
