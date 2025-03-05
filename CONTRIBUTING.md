@@ -1,7 +1,3 @@
-# Contributing to OceanLabDocs
-
-With the documentation source text, images, etc. hosted on Github, it's easy to make contributions to the documentation site!
-
 ### Contributing using Github's web editor
 
 1. Make a _fork_ of the repository, by clicking on the "Fork" button at the top-right of this repository's home page, then click "Create Fork" at the bottom of the following screen.
